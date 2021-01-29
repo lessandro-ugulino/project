@@ -1,0 +1,28 @@
+---
+layout: default
+home: false
+---
+<div style="text-align:center">
+  <img src="{{ site.certification.AWSPro }}" alt="{{ site.certification.AWSPro }}"/>
+  <img src="{{ site.certification.AWSAss }}" alt="{{ site.certification.AWSAss }}"/>
+  <!-- <img src="{{ site.certification.MsAzure }}" alt="{{ site.certification.MsAzure }}"/> -->
+  <img src="{{ site.certification.MCSA16 }}" alt="{{ site.certification.MCSA16 }}"/>
+  <img src="{{ site.certification.MCSA17 }}" alt="{{ site.certification.MCSA17 }}"/>
+
+</div>
+<div style="text-align:center">
+  <img src="{{ site.certification.MCSA12 }}" alt="{{ site.certification.MCSA12 }}"/>
+  <img src="{{ site.certification.Ex417 }}" alt="{{ site.certification.Ex417 }}"/>
+  <img src="{{ site.certification.Ex410 }}" alt="{{ site.certification.Ex410 }}"/>
+  <img src="{{ site.certification.ITIL }}" alt="{{ site.certification.ITIL }}"/>
+</div>
+
+<h4 class="posts-item-note">Projects</h4>
+{% for post in site.posts %}
+<article class="post-item">
+  <span class="post-item-date">{{ post.date | date: "%B, %Y" }}</span>
+  <h4 class="post-item-title">
+    <a href="{{ post.url }}">{{ post.title | escape }}</a>
+  </h4>
+</article>
+{% endfor %}
