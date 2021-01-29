@@ -5,16 +5,16 @@ description: >- # site description
 lang: en-US # default lang
 timezone: Australia/Sydney # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/lezampieri/whoami # site repo [optional]
+repo: https://github.com/lessandro-ugulino/whoami # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Lessandro Z. Ugulino # author name
   bio: >- # tell to the world
-    Curious for as long as I can remember, loving automate things, working as <strong>Site Reliability Engineer</strong> at <a href="https://www.ticketek.com.au/" target="_blank">Ticketek </a>and always looking for a good coffee.<br>Want to have a chat? Contact me: <br><a href="https://www.linkedin.com/in/lezampieri/" target="_blank" rel="noopener">@linkedin</a><br><a href="mailto:lessandro.ugulino@outlook.com">@email</a><br><a href="https://github.com/lezampieri/whoami" target="_blank" rel="noopener">@github</a>.
+    Curious for as long as I can remember, loving automate things, working as <strong>Site Reliability Engineer</strong> at <a href="https://www.ticketek.com.au/" target="_blank">Ticketek </a>and always looking for a good coffee.<br>Want to have a chat? Contact me: <br><a href="https://www.linkedin.com/in/lezampieri/" target="_blank" rel="noopener">@linkedin</a><br><a href="mailto:lessandro.ugulino@outlook.com">@email</a><br><a href="https://github.com/lessandro-ugulino/whoami" target="_blank" rel="noopener">@github</a>.
   username: username # author username
-  github: lezampieri
+  github: lessandro-ugulino
   #twitter: twitter_username
   #facebook: facebook_username
   email: lessandro.ugulino@outlook.com # your contact adress
