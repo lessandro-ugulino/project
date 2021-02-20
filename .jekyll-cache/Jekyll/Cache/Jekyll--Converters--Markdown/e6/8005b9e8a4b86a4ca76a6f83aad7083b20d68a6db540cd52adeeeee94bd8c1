@@ -1,0 +1,22 @@
+I"Ò<h4 id="rails-6-dbsystemchange-to-command">Rails 6 db:system:change â€“to command</h4>
+
+<p>Untuk menggunakan perintah <code class="language-plaintext highlighter-rouge">db:system:change</code> pada rails 6 perlu menentukan database adapter dengan <code class="language-plaintext highlighter-rouge">--to</code> option.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails db:system:change <span class="nt">--to</span><span class="o">=</span>&lt;adapter&gt;
+<span class="c"># &lt;adapter&gt; : postgresql, mysql, sqlite3, oracle, sqlserver, dll...</span>
+</code></pre></div></div>
+
+<p>Setelah menjalankan perintah diatas, jangan lupa untuk mengubah versi database adapter di <code class="language-plaintext highlighter-rouge">Gemfile</code>.</p>
+
+<hr />
+
+<h4 id="mematikan-jekyll-server">Mematikan Jekyll Server</h4>
+
+<p>Mengehentikan server Jekyll dengan tombol <kbd>CTRL</kbd> + <kbd>Z</kbd> tidak menghentikan proses secara penuh, untuk menangani hal ini matikan <code class="language-plaintext highlighter-rouge">PID</code> dengan cara ini.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>lsof <span class="nt">-wni</span> tcp:4000
+<span class="nv">$ </span><span class="nb">kill</span> <span class="nt">-9</span> &lt;PID of process&gt;
+</code></pre></div></div>
+
+<p>Dan lain waktu, gunakan <kbd>CTRL</kbd> + <kbd>C</kbd> untuk menghentikan server.</p>
+:ET

@@ -1,0 +1,28 @@
+I"¨<p>As the requirement for tracking down all information and also act as soon as an incident happens, this dashboard can be a great way to view and share the status across your team of all current AWS resources.</p>
+
+<div style="text-align:center">
+<img src="/assets/img/aws-dashboard.png" alt="/assets/img/aws-dashboard.png" />
+<figcaption>Fig 1. Example AWS dashboard</figcaption>
+</div>
+
+<p>The screenshot above represents the data from an AWS account in Europe, measuring how many EC2 are running and on the right side, how many snapshots are older than 60 days.</p>
+
+<h3 id="technologies-involved">Technologies Involved</h3>
+
+<ul>
+  <li>Python 3</li>
+  <li>AWS cli</li>
+  <li>Excel</li>
+  <li>Jenkins</li>
+  <li>Bash script</li>
+</ul>
+
+<p>Basically, a Jenkins project was created to run the bash script to extract the data (quantity of EC2 and snapshots) from AWS account via aws cli and then saved it in a .csv file like below.</p>
+
+<div style="text-align:center">
+<img src="/assets/img/ec2-snapshots.png" alt="/assets/img/ec2-snapshots.png" />
+<figcaption>Fig 2. Example .csv file</figcaption>
+</div>
+
+<p>A python script then, read this .csv file and translate it into a dashboard.</p>
+:ET
